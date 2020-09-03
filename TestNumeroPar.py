@@ -12,5 +12,5 @@ class TestNumeroPar(unittest.TestCase):
     def test_numero_par(self):
         self.assertEqual(True, numeroPar(2))
 
-test = TestNumeroPar()
-test.test_numero_par()
+if __name__ == '__main__':
+    unittest.main()

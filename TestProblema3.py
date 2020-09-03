@@ -13,5 +13,5 @@ class TestProblema3(unittest.TestCase):
     def test_primeroYUltimo(self):
         self.assertEqual('Bo', primeroYUltimo('Banano'))
         
-test = TestProblema3()
-test.test_primeroYUltimo();
+if __name__ == '__main__':
+    unittest.main()

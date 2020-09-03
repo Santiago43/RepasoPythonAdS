@@ -12,5 +12,5 @@ class TestProblema1(unittest.TestCase):
     def test_edad_futura(self):
         self.assertEqual(70,edadFutura(20,2020))
 
-test = TestProblema1()
-test.test_edad_futura()
+if __name__ == '__main__':
+    unittest.main()

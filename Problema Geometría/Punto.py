@@ -11,6 +11,3 @@ class Punto:
 
     def determinarDentro(self, circulo):
         return self.calcularDistancia(circulo.puntos[0])<=circulo.radio
-            
-            
-

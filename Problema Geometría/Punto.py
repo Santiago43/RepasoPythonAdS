@@ -1,6 +1,5 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
-from Circulo import Circulo 
 class Punto:
     def __init__(self,x,y):
         self.x = x

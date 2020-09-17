@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
-from abc import abc
+import abc
 class FiguraGeométrica:
     def __init__(self):
         self.lados = None

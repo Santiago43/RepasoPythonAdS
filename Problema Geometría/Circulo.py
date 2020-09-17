@@ -6,10 +6,10 @@ import math
 class Circulo(FiguraGeométrica):
     def __init__(self,punto,radio):
         self.radio = radio
-        self.puntos.append(punto)
+        self.puntos=[punto]
         
     def calcularArea(self):
-        return math.pi*self.radio**2
+        return math.pi*float(self.radio)**2
     
     def calcularPerimetro(self):
-        return 2*math.pi*self.radio
+        return 2*math.pi*float(self.radio)

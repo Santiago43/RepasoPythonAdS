@@ -6,7 +6,7 @@ import math
 class Circulo(FiguraGeométrica):
     def __init__(self,punto,radio):
         self.radio = radio
-        FiguraGeométrica.__init__(self,punto,0)
+        FiguraGeométrica.__init__(self,[punto],0)
         
     def calcularArea(self):
         return math.pi*float(self.radio)**2

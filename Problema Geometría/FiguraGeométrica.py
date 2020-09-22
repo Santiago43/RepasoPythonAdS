@@ -4,7 +4,7 @@ import abc
 class FiguraGeométrica:
     def __init__(self,puntos,lados):
         self.lados = lados
-        self.puntos = [puntos]
+        self.puntos = puntos
     @abc.abstractmethod
     def calcularArea(self):
         pass

@@ -6,9 +6,9 @@ class PlanoCartesiano:
         self.figuras = []
         self.puntos = []
 
-    def definir(self, punto):
+    def definirPunto(self, punto):
         self.puntos.append(punto)
 
-    def definir(self, figura):
+    def definirFigura(self, figura):
         self.figuras.append(figura)
 
